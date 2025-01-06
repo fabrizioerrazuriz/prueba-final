@@ -1,0 +1,30 @@
+{
+  "name": "terraform-aws",
+  "version": "1.0.0",
+  "description": "Desafio LATAM Prueba Final",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/demodogo/terraform-aws.git"
+  },
+  "keywords": [
+    "Terraform",
+    "AWS"
+  ],
+  "author": "Macarena Muñoz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/demodogo/terraform-aws/issues"
+  },
+  "homepage": "https://github.com/demodogo/terraform-aws#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "optionalDependencies": {
+    "axios": "^0.24.0"
+  }
+}

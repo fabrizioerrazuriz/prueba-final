@@ -1,0 +1,14 @@
+services:
+  dl-web-app:
+    build:
+      context: .
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/app
+    networks:
+      - dl-web-app-network
+
+networks:
+  dl-web-app-network:
+    driver: bridge
