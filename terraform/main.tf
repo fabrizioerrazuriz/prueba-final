@@ -4,7 +4,7 @@ provider "aws" {
 
 terraform {
   backend "s3" {
-    bucket         = "arn:aws:s3:::bkterra"
+    bucket         = "bkterra"
     key            = "terraform/terraform.tfstate"
     region         = "us-east-1"
     dynamodb_table = "bloqueoremoto"
