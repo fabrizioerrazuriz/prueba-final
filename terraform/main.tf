@@ -14,7 +14,7 @@ terraform {
 
 # Generación de la clave SSH desde Terraform (para evitar duplicados)
 resource "aws_key_pair" "key_pair" {
-  key_name   = var.key_name
+  key_name   = "temp-key-12634746537"  
   public_key = file("${path.root}/ddg-dl-temp.pub")
 }
 
